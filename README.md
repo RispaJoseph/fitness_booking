@@ -29,8 +29,26 @@ cd fitness-booking-api
 pip install django djangorestframework
 ```
 
+### 3. Run migrations
 
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
 
+### 4. Start the server
+
+```bash
+python manage.py runserver
+```
+
+---
+
+## 📬 API Endpoints
+
+### ✅ View all upcoming classes
+GET /api/classes/
+Returns a list of upcoming classes ordered by date and time.
 
 
 

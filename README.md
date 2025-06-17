@@ -20,7 +20,7 @@ This is a RESTful API for a fictional fitness studio built using Django and Djan
 
 ```bash
 git clone https://github.com/RispaJoseph/fitness_booking.git
-cd fitness-booking-api
+cd fitness_booking
 ```
 
 ### 2. Install dependencies
@@ -47,7 +47,9 @@ python manage.py runserver
 ## 📬 API Endpoints
 
 ### ✅ View all upcoming classes
+
 GET /api/classes/
+
 Returns a list of upcoming classes ordered by date and time.
 
 

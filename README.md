@@ -103,7 +103,7 @@ Returns all bookings associated with the given email.
 
 ## 📁 Project Structure
 
-<pre> ```plaintext fitness_booking/ ├── api/ │ ├── models.py │ ├── views.py │ ├── serializers.py │ ├── urls.py │ └── ... ├── fitness_booking/ │ ├── settings.py │ ├── urls.py │ └── ... ├── manage.py ├── requirements.txt ├── .gitignore ``` </pre>
+<pre> ## 🗂️ Project Structure <code> fitness_booking/ ├── api/ │ ├── migrations/ │ ├── __init__.py │ ├── admin.py │ ├── apps.py │ ├── models.py │ ├── serializers.py │ ├── views.py │ ├── urls.py ├── fitness_booking/ │ ├── __init__.py │ ├── asgi.py │ ├── settings.py │ ├── urls.py │ ├── wsgi.py ├── db.sqlite3 ├── manage.py ├── README.md </code> </pre>
 
 
 

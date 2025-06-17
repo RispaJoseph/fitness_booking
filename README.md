@@ -103,7 +103,34 @@ Returns all bookings associated with the given email.
 
 ## 📁 Project Structure
 
-<pre> ## 🗂️ Project Structure <code> fitness_booking/ ├── api/ │ ├── migrations/ │ ├── __init__.py │ ├── admin.py │ ├── apps.py │ ├── models.py │ ├── serializers.py │ ├── views.py │ ├── urls.py ├── fitness_booking/ │ ├── __init__.py │ ├── asgi.py │ ├── settings.py │ ├── urls.py │ ├── wsgi.py ├── db.sqlite3 ├── manage.py ├── README.md </code> </pre>
+fitness_booking/
+├── api/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── tests.py
+│   ├── views.py
+│   ├── urls.py
+├── fitness_booking/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── db.sqlite3
+├── manage.py
+├── README.md
+
+---
+
+## ✍️ Author
+
+**Rispa Joseph**  
+📧 rizpahjoseph@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/rispa-joseph)
 
 
 

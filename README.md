@@ -103,6 +103,9 @@ Returns all bookings associated with the given email.
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
+```
 fitness_booking/
 ├── api/
 │   ├── migrations/
@@ -123,6 +126,8 @@ fitness_booking/
 ├── db.sqlite3
 ├── manage.py
 ├── README.md
+```
+
 
 ---
 

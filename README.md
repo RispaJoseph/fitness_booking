@@ -21,12 +21,14 @@ This is a RESTful API for a fictional fitness studio built using Django and Djan
 ```bash
 git clone https://github.com/RispaJoseph/fitness_booking.git
 cd fitness-booking-api
-
+```
 
 ### 2. Install dependencies
 
 ```bash
 pip install django djangorestframework
+```
+
 
 
 
